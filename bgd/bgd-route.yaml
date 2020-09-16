@@ -7,7 +7,7 @@ metadata:
   name: bgd
   namespace: bgd
 spec:
-  host: "bgd.apps.ocpcluster.cfs-jaicocp.com"
+  host: "kubernetes.default.svc"
   port:
     targetPort: 8080
   to:
