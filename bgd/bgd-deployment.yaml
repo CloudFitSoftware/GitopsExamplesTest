@@ -21,6 +21,8 @@ spec:
       containers:
       - image: quay.io/redhatworkshops/bgd:latest
         name: bgd
+        ports:
+        - containerPort: 80
         env:
         - name: COLOR
           value: "blue"
