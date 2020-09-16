@@ -9,7 +9,7 @@ metadata:
 spec:
   host: "kubernetes.default.svc"
   port:
-    targetPort: 8080
+    targetPort: 8081
   to:
     kind: Service
     name: bgd
