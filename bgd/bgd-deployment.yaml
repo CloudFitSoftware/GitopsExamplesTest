@@ -25,6 +25,6 @@ spec:
         - containerPort: 8080
         env:
         - name: COLOR
-          value: "green"
+          value: "blue"
         resources: {}
 ---
